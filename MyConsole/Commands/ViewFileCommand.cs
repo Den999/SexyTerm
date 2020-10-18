@@ -5,12 +5,18 @@ using System.Text.RegularExpressions;
 
 namespace MyConsole
 {
+    /// <summary>
+    /// Like unix cat command - prints a file contents.
+    /// Also u can specify encoding in which file content will be printed.
+    /// </summary>
     public class ViewFileCommand : CommandBase
     {
         public ViewFileCommand(WorkingDirectoryContainer d) : base(d) { }
 
         protected override string CommandName => "cat";
-        protected override string CommandDescription => "<file_name> - prints the file contents into the console. Supported encoding args: d|default (by default), utf8|utf-8, unicode, ascii";
+        
+        protected override string CommandDescription => 
+            "<file_name> - prints the file contents into the console. Supported encoding args: d|default (by default), utf8|utf-8, unicode, ascii";
         
         protected override void Action(string[] args)
         {

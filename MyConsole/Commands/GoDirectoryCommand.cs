@@ -3,11 +3,13 @@ using System.IO;
 
 namespace MyConsole
 {
+    /// <summary>
+    /// Goes to dir user specified, also u can go multiple dirs by using slashes
+    /// and go upper by using ..
+    /// </summary>
     public class GoDirectoryCommand : CommandBase
     {
-        public GoDirectoryCommand(WorkingDirectoryContainer d) : base(d)
-        {
-        }
+        public GoDirectoryCommand(WorkingDirectoryContainer d) : base(d) { }
 
         protected override string CommandName => "cd";
 

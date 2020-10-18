@@ -6,6 +6,9 @@ using System.Linq;
 
 namespace MyConsole
 {
+    /// <summary>
+    /// Combines two or move files into the output file (last argument).
+    /// </summary>
     public class CombineFileContentsCommand : CommandBase
     {
         public CombineFileContentsCommand(WorkingDirectoryContainer d) : base(d) { }
@@ -14,14 +17,17 @@ namespace MyConsole
 
         protected override string CommandDescription =>
             "<file1> <file2> ... <file9> <combine_output_file> combines 2..9 all files contents into the single one";
+        
         protected override void Action(string[] args)
         {
+            // Minimum number of args is 3
             if (args[0] == "" || args[1] == "" || args[2] == "")
             {
                 Log.PrintLineError("To few arguments. You should specify 3 or move arguments");
                 return;
             }
             
+            // Get full absolute paths of files user specified
             List<string> filePaths = new List<string>();
             int i = 0;
             while (i < 10 && args[i] != "")
@@ -32,6 +38,7 @@ namespace MyConsole
                 Log.PrintLine(i.ToString());
             }
             
+            // Read all data from these files
             var lines = new List<string>();
             for (int j = 0; j < filePaths.Count-1; j++)
             {
@@ -59,12 +66,12 @@ namespace MyConsole
                 }
             }
             
+            // Write all strings into output (last argument) file
             if (File.Exists(filePaths.Last()))
             {
                 Log.PrintLineError("File you want to combine is already exists!");
                 return;
             }
-            
             using (StreamWriter sr = new StreamWriter(filePaths.Last()))
             {
                 foreach (string l in lines)

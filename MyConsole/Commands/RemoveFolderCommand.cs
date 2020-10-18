@@ -3,14 +3,18 @@ using System.IO;
 
 namespace MyConsole
 {
+    /// <summary>
+    /// Removes a folder and all it content (recursively)
+    /// </summary>
     public class RemoveFolderCommand : CommandBase
     {
-        public RemoveFolderCommand(WorkingDirectoryContainer d) : base(d)
-        {
-        }
+        public RemoveFolderCommand(WorkingDirectoryContainer d) : base(d) { }
 
         protected override string CommandName => "rmdir";
-        protected override string CommandDescription => "<dir_name> - removes the folder and all it contents.";
+        
+        protected override string CommandDescription => 
+            "<dir_name> - removes the folder and all it contents.";
+        
         protected override void Action(string[] args)
         {
             if (args[0] == "")

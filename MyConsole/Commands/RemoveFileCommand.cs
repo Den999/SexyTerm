@@ -3,14 +3,17 @@ using System.IO;
 
 namespace MyConsole
 {
+    /// <summary>
+    /// Removes a file.
+    /// </summary>
     public class RemoveFileCommand : CommandBase
     {
-        public RemoveFileCommand(WorkingDirectoryContainer d) : base(d)
-        {
-        }
+        public RemoveFileCommand(WorkingDirectoryContainer d) : base(d) { }
 
         protected override string CommandName => "rm";
+        
         protected override string CommandDescription => "<file_name> - removes the file.";
+        
         protected override void Action(string[] args)
         {
             if (args[0] == "")

@@ -4,6 +4,9 @@ using System.IO;
 
 namespace MyConsole
 {
+    /// <summary>
+    /// Displays all commands description and terminal usage instruction.
+    /// </summary>
     public class HelpCommand : CommandBase
     {
         public HelpCommand(WorkingDirectoryContainer d) : base(d) { }
@@ -11,8 +14,15 @@ namespace MyConsole
         protected override string CommandName => "help";
         protected override string CommandDescription => "- prints a help guide.";
 
+        /// <summary>
+        /// Supported commands which will be displayed in help.
+        /// </summary>
         private List<CommandBase> _helpCommands;
 
+        /// <summary>
+        /// Setup help command and display greeting message.
+        /// </summary>
+        /// <param name="helpCommands">Supported commands.</param>
         public void Init(List<CommandBase> helpCommands)
         {
             _helpCommands = helpCommands;
@@ -20,6 +30,7 @@ namespace MyConsole
             Console.Clear();
             
             Log.PrintLineSexy("Welcome to SexyTerm!");
+            Log.PrintLine("The code of this program has NO switch and long if");
             
             Log.NewLine();
             
@@ -48,6 +59,7 @@ namespace MyConsole
             
             Log.PrintLineContrast("List of supported commands: ");
 
+            // Print all commands info
             int i = 1;
             foreach (CommandBase c in _helpCommands)
             {

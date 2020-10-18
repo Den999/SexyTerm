@@ -6,9 +6,9 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="MyConsole" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CommandBase.cs" t="Include" />
         <e p="Commands" t="Include">
           <e p="CombineFileContentsCommand.cs" t="Include" />
+          <e p="CommandBase.cs" t="Include" />
           <e p="CopyFileCommand.cs" t="Include" />
           <e p="CreateTextFileCommand.cs" t="Include" />
           <e p="DrivesCommand.cs" t="Include" />
@@ -20,7 +20,6 @@
           <e p="RemoveFolderCommand.cs" t="Include" />
           <e p="ViewFileCommand.cs" t="Include" />
         </e>
-        <e p="Log.cs" t="Include" />
         <e p="MyConsole.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -30,9 +29,12 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="StringExtensions.cs" t="Include" />
         <e p="Terminal.cs" t="Include" />
-        <e p="WorkingDirectoryContainer.cs" t="Include" />
+        <e p="Utilities" t="Include">
+          <e p="Log.cs" t="Include" />
+          <e p="StringExtensions.cs" t="Include" />
+          <e p="WorkingDirectoryContainer.cs" t="Include" />
+        </e>
       </e>
       <e p="MyConsole.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

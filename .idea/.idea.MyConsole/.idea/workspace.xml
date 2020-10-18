@@ -24,14 +24,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MyConsole/Commands.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Program.cs" />
         <option value="$PROJECT_DIR$/MyConsole/LsCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Command.cs" />
         <option value="$PROJECT_DIR$/MyConsole/obj/Debug/netcoreapp3.1/MyConsole.AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/MyConsole/HelpCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/ViewFilesCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/ViewFilesCommand.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Commands/CommandBase.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/ViewFile.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/CreateFileCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/ParameterParser.cs" />
@@ -40,25 +38,32 @@
         <option value="$PROJECT_DIR$/MyConsole/StringExstension.cs" />
         <option value="$PROJECT_DIR$/MyConsole/WorkingDirectoryContainer.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/CopyFile.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Commands/CopyFileCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/RemoveCommand.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Commands/DrivesCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Log.cs" />
         <option value="$PROJECT_DIR$/MyConsole/CommandBase.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/MoveFile.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Commands/ListViewCommand.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Commands/MoveFileCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/ConnectFilesContentCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/CombineFilesContentCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/StringExtensions.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Utilities/WorkingDirectoryContainer.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Utilities/Log.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Terminal.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Utilities/Encoding.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Utilities/EncodingBase.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Utilities/StringExtensions.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Commands/CommandBase.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/CombineFileContentsCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Commands/CopyFileCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Commands/CreateTextFileCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Commands/DrivesCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/GoDirectoryCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Commands/HelpCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Commands/MoveFileCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/RemoveFileCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/RemoveFolderCommand.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Terminal.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/StringExtensions.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Commands/CreateTextFileCommand.cs" />
         <option value="$PROJECT_DIR$/MyConsole/Commands/ViewFileCommand.cs" />
-        <option value="$PROJECT_DIR$/MyConsole/Commands/HelpCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Commands/ListViewCommand.cs" />
+        <option value="$PROJECT_DIR$/MyConsole/Program.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +113,7 @@
       <updated>1602748334835</updated>
       <workItem from="1602748336746" duration="6902000" />
       <workItem from="1602788911256" duration="12332000" />
-      <workItem from="1602923653160" duration="17341000" />
+      <workItem from="1602923653160" duration="24461000" />
     </task>
     <servers />
   </component>
@@ -125,22 +130,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="476" height="464" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1603017125670" />
-    <state width="1440" height="422" key="GridCell.Tab.0.bottom" timestamp="1603019841155">
+    <state width="1440" height="422" key="GridCell.Tab.0.bottom" timestamp="1603043153349">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="422" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603019841155" />
-    <state width="1440" height="422" key="GridCell.Tab.0.center" timestamp="1603019841155">
+    <state width="1440" height="422" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603043153349" />
+    <state width="1440" height="422" key="GridCell.Tab.0.center" timestamp="1603043153348">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="422" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603019841155" />
-    <state width="1440" height="422" key="GridCell.Tab.0.left" timestamp="1603019841154">
+    <state width="1440" height="422" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603043153348" />
+    <state width="1440" height="422" key="GridCell.Tab.0.left" timestamp="1603043153348">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="422" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603019841154" />
-    <state width="1440" height="422" key="GridCell.Tab.0.right" timestamp="1603019841155">
+    <state width="1440" height="422" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603043153348" />
+    <state width="1440" height="422" key="GridCell.Tab.0.right" timestamp="1603043153349">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="422" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603019841155" />
+    <state width="1440" height="422" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603043153349" />
     <state width="1440" height="349" key="GridCell.Tab.1.bottom" timestamp="1603017349456">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -225,63 +230,5 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603015298544" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MyConsole/Commands/GoDirectoryCommand.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/MyConsole/Commands/GoDirectoryCommand.cs" initialLine="19">
-            <startOffsets>
-              <option value="539" />
-            </startOffsets>
-            <endOffsets>
-              <option value="540" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MyConsole/Commands/MoveFileCommand.cs</url>
-          <line>44</line>
-          <properties documentPath="$PROJECT_DIR$/MyConsole/Commands/MoveFileCommand.cs" initialLine="37">
-            <startOffsets>
-              <option value="1471" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1472" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MyConsole/Commands/MoveFileCommand.cs</url>
-          <line>46</line>
-          <properties documentPath="$PROJECT_DIR$/MyConsole/Commands/MoveFileCommand.cs" initialLine="39">
-            <startOffsets>
-              <option value="1549" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1550" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MyConsole/Commands/CombineFileContentsCommand.cs</url>
-          <line>39</line>
-          <properties documentPath="$PROJECT_DIR$/MyConsole/Commands/CombineFileContentsCommand.cs" initialLine="39">
-            <startOffsets>
-              <option value="1354" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1415" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

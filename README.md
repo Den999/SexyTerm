@@ -1,5 +1,6 @@
 # SexyTerm
 **University (HSE) big homework project**
+
 The terminal everyone has been waiting for.
 
 🔥 NO switch challenge 🔥

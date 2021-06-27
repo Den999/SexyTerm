@@ -1,7 +1,5 @@
 # SexyTerm
-**University (HSE) big homework project**
-
-The terminal everyone has been waiting for.
+**University (HSE) big homework project. My small console terminal realisation.**
 
 🔥 NO switch challenge 🔥
  
